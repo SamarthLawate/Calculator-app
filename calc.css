@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('back.jpeg');
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 400;
+}
+.container {
+
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(196, 196, 196);
+    box-shadow: rgb(255 255 255 / 5%) 0px 0px 0px 1px inset, rgb(255 255 255 / 45%) 0px 1px 0px 0px inset, rgb(255 255 255 / 15%) 0px -1px 0px 0px inset, rgb(255 255 255 / 15%) 0px 1px 0px 0px;
+}
+
+.keys {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+    padding: 10px;
+
+    margin: auto;
+
+}
+
+.button {
+
+    height: 63px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: transparent;
+    font-size: 2rem;
+    color: whitesmoke;
+    box-shadow: rgb(255 255 255 / 5%) 0px 0px 0px 1px inset, rgb(255 255 255 / 45%) 0px 1px 0px 0px inset, rgb(255 255 255 / 15%) 0px -1px 0px 0px inset, rgb(255 255 255 / 15%) 0px 1px 0px 0px;
+
+}
+
+.button:hover {
+
+    background-color: #9b9b91;
+    border: transparent;
+
+}
+
+.operator {
+
+    color: #fff;
+    font-size: 30px;
+    background-color: #9b9b91;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+}
+.operator:hover{
+    background-color: transparent;
+}
+
+.clear {
+    width: 125px;
+    height: 67px;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 0px 9px 10px 2px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: transparent;
+    font-size: 2rem;
+}
+.clear:hover{
+    background-color: #9b9b91;
+    border: transparent;
+}
+
+.equal-sign {
+
+    border: 1px solid rgb(196, 196, 196);
+    color: whitesmoke;
+    background-color: #9b9b91;
+
+}
+
+.equal-sign:hover {
+    background-color: transparent;
+    border: transparent;
+
+}
+
+.screen {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 52%;
+    height: 52%;
+    cursor: default;
+    padding: 13px 13px 13px 40%;
+    margin: 0px auto 11px 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: transparent;
+    font-size: 2.1rem;
+
+}
